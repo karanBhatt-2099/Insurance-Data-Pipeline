@@ -1,0 +1,80 @@
+==================== 2026-09-19T11:39:53.718741Z | 01a0b977-39d4-7621-bdcb-5e2a7baaa30d ====================
+11:39:53.723423 [info ]: Installing dbt project and profile setup
+11:39:53.802572 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+11:39:53.806992 [info ]: Success Project created successfully!
+11:39:53.807330 [info ]: Info Project name: jaffle_shop
+11:39:53.807591 [info ]: Info Project directory: jaffle_shop
+11:39:53.808003 [info ]: Info Setting up your profile...
+11:39:53.812333 [info ]: Loading ~/.dbt/profiles.yml
+11:39:53.834661 [info ]: Info Creating new profile...
+11:39:56.942007 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+11:42:02.223297 [info ]: Success Profile written to C:\Users\Nishita\.dbt\profiles.yml
+11:42:02.225120 [info ]: Validating profile inputs, adapters, and connection
+
+11:42:02.225824 [info ]: dbt-fusion 2.0.0-preview.173
+11:42:02.233217 [info ]: Started loading project
+11:42:02.286700 [info ]: Loading ~/.dbt/profiles.yml
+11:42:02.308345 [info ]: Finished loading project [  0.08s]
+11:42:02.315861 [info ]: Started debugging
+11:42:02.316471 [info ]: Debugging profile: dev
+11:42:02.316578 [info ]: Debugging dbt version: 2.0.0-preview.173
+11:42:02.316997 [info ]: Debugging platform: windows x86_64 (windows)
+11:42:02.317944 [info ]: Debugging adapter type: snowflake (remote)
+11:42:02.370792 [info ]: Debugging dependencies:
+  git: OK
+11:42:02.373301 [info ]: Debugging connection:
+  "account": "jo06811.ap-south-1.aws",
+  "user": "KARANBHATT80",
+  "database": "Insurance",
+  "warehouse": "COMPUTE_WH",
+  "schema": "raw",
+  "role": "ACCOUNTADMIN"
+11:42:04.165150 [debug]: Query executed on node unknown:
+select 1 as id
+11:42:04.165582 [info ]: Debugging connection test: OK
+11:42:04.166709 [info ]: Debugged All checks passed!
+11:42:04.167562 [info ]: Finished debugging [  1.85s]
+11:42:05.436932 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully for target 'dev' [2m 12s]
+==================== 2026-09-19T11:46:37.697055Z | 01a0b97d-63fd-7a40-8cb7-79643c11fa10 ====================
+11:46:37.697310 [info ]: Installing dbt project and profile setup
+11:46:37.730363 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+11:46:37.730774 [info ]: Success Project created successfully!
+11:46:37.730859 [info ]: Info Project name: jaffle_shop
+11:46:37.731035 [info ]: Info Project directory: jaffle_shop
+11:46:37.731213 [info ]: Info Setting up your profile...
+11:46:37.731792 [info ]: Loading ~/.dbt/profiles.yml
+11:46:37.732589 [info ]: Profile 'jaffle_shop' already exists. You can choose how to proceed.
+11:46:51.491326 [info ]: Info Creating new profile...
+11:46:52.668387 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+11:48:19.335069 [info ]: Info Backup created at C:\Users\Nishita\.dbt\profiles.yml.bkp
+11:48:19.336058 [info ]: Success Profile written to C:\Users\Nishita\.dbt\profiles.yml
+11:48:19.336745 [info ]: Validating profile inputs, adapters, and connection
+
+11:48:19.337422 [info ]: dbt-fusion 2.0.0-preview.173
+11:48:19.339005 [info ]: Started loading project
+11:48:19.343128 [info ]: Loading ~/.dbt/profiles.yml
+11:48:19.369732 [info ]: Finished loading project [  0.03s]
+11:48:19.370071 [info ]: Started debugging
+11:48:19.370148 [info ]: Debugging profile: dev
+11:48:19.370411 [info ]: Debugging dbt version: 2.0.0-preview.173
+11:48:19.370615 [info ]: Debugging platform: windows x86_64 (windows)
+11:48:19.370783 [info ]: Debugging adapter type: snowflake (remote)
+11:48:19.433855 [info ]: Debugging dependencies:
+  git: OK
+11:48:19.434216 [info ]: Debugging connection:
+  "account": "jo06811.ap-south-1.aws",
+  "user": "KARANBHATT80",
+  "database": "Insurance",
+  "warehouse": "COMPUTE_WH",
+  "schema": "analytics",
+  "role": "ACCOUNTADMIN"
+11:48:20.748507 [debug]: Query executed on node unknown:
+select 1 as id
+11:48:20.748642 [info ]: Debugging connection test: OK
+11:48:20.749002 [info ]: Debugged All checks passed!
+11:48:20.749271 [info ]: Finished debugging [  1.38s]
+11:48:21.680554 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully for target 'dev' [1m 44s]
