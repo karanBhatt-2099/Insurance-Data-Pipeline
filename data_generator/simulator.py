@@ -6,7 +6,7 @@ import pymongo
 fake = Faker()
 
 # Connect to MongoDB Atlas
-client = pymongo.MongoClient("mongodb+srv://karanbhatt_db_user:hQHA7Zcgy9Jwc83v@insurance.cpou4dp.mongodb.net/?appName=insurance")
+client = pymongo.MongoClient("********************************")
 db = client["insurance"]
 customers_col = db["customers"]
 claims_col = db["claims"]
