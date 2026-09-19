@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates a **beginner-friendly real-time data pipeline** for **insurance claims data**.  
 We simulate real-time insurance customer and claim data, move it from a **NoSQL database (MongoDB)** to a **cloud warehouse (Snowflake)** using **Airbyte**, transform the data with **DBT**, and finally visualize insights with **PowerBI**.
 
@@ -19,7 +19,7 @@ This pipeline gives you a **clear blueprint of how modern data engineering proje
 
 ---
 
-## ⚡ Tech Stack
+##  Tech Stack
 - **MongoDB** → NoSQL OLTP database  
 - **Airbyte** → ETL/ELT connector (Ingest data to warehouse)  
 - **Snowflake** → Cloud Data Warehouse  
@@ -29,7 +29,7 @@ This pipeline gives you a **clear blueprint of how modern data engineering proje
 
 ---
 
-## ✅ Key Features
+##  Key Features
 - Generate **realistic insurance customers and claims data**  
 - Stream data from MongoDB to Snowflake using **Airbyte**  
 - Clean and transform raw data with **DBT**  
@@ -38,7 +38,7 @@ This pipeline gives you a **clear blueprint of how modern data engineering proje
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 insurance-nosql-pipeline/
@@ -54,7 +54,7 @@ insurance-nosql-pipeline/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Clone this repo and install dependencies:
 
@@ -106,7 +106,7 @@ insurance-nosql-pipeline/
 
 ---
 
-## 📊 Final Deliverables
+##  Final Deliverables
 - **Real-time insurance data pipeline**  
 - **MongoDB collections → source OLTP**  
 - **Snowflake warehouse tables → OLAP**  
